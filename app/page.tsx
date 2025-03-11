@@ -27,7 +27,6 @@ export default function Home() {
       <KeyFeatures />
       <Pricing />
       <WhyChooseUs />
-     
       <Bonuses />
       <LastCall />
       <Faq />

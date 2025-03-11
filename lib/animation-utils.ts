@@ -4,7 +4,7 @@
 import { useEffect, useRef } from "react"
 
 // Hook personalizado para animações de entrada
-export function useIntersectionObserver() {
+export function useIntersectionObserver(heroRef: unknown) {
   const observerRef = useRef<IntersectionObserver | null>(null)
 
   useEffect(() => {
